@@ -11,4 +11,5 @@ target 'BaseProject' do
   pod 'Moya', '~> 14.0'
   pod 'SnapKit', '~> 5.0.0'
   pod 'Then'
+  pod 'lottie-ios'
 end
