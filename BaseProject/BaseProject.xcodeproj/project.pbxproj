@@ -22,6 +22,8 @@
 		BD6067C926B45EC5009EBFE2 /* FontSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6067C826B45EC5009EBFE2 /* FontSample.swift */; };
 		BD6067CB26B45ECD009EBFE2 /* AnimationSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6067CA26B45ECD009EBFE2 /* AnimationSample.swift */; };
 		BD6067D126B45F34009EBFE2 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6067D026B45F34009EBFE2 /* Constants.swift */; };
+		BD9B810926C7CDA80098CCF7 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9B810826C7CDA80098CCF7 /* SplashViewController.swift */; };
+		BD9B810B26C7CE980098CCF7 /* animated-logo.json in Resources */ = {isa = PBXBuildFile; fileRef = BD9B810A26C7CE980098CCF7 /* animated-logo.json */; };
 		BDAF8F7F26B5949800C80F82 /* Design.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAF8F7E26B5949800C80F82 /* Design.swift */; };
 		BDAF8F8326B594DE00C80F82 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAF8F8226B594DE00C80F82 /* Network.swift */; };
 		BDAF8F8726B5953300C80F82 /* Identity.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAF8F8626B5953300C80F82 /* Identity.swift */; };
@@ -59,6 +61,8 @@
 		BD6067C826B45EC5009EBFE2 /* FontSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontSample.swift; sourceTree = "<group>"; };
 		BD6067CA26B45ECD009EBFE2 /* AnimationSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationSample.swift; sourceTree = "<group>"; };
 		BD6067D026B45F34009EBFE2 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		BD9B810826C7CDA80098CCF7 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		BD9B810A26C7CE980098CCF7 /* animated-logo.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "animated-logo.json"; sourceTree = "<group>"; };
 		BDAF8F7E26B5949800C80F82 /* Design.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Design.swift; sourceTree = "<group>"; };
 		BDAF8F8226B594DE00C80F82 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
 		BDAF8F8626B5953300C80F82 /* Identity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Identity.swift; sourceTree = "<group>"; };
@@ -187,6 +191,7 @@
 			isa = PBXGroup;
 			children = (
 				BD6067B426B45C92009EBFE2 /* SampleViewController.swift */,
+				BD9B810726C7CD990098CCF7 /* Splash */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -263,6 +268,7 @@
 			isa = PBXGroup;
 			children = (
 				BD6067CA26B45ECD009EBFE2 /* AnimationSample.swift */,
+				BD9B810A26C7CE980098CCF7 /* animated-logo.json */,
 			);
 			path = Animations;
 			sourceTree = "<group>";
@@ -297,6 +303,14 @@
 				BD6067C626B45EAF009EBFE2 /* ViewModelSample.swift */,
 			);
 			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		BD9B810726C7CD990098CCF7 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				BD9B810826C7CDA80098CCF7 /* SplashViewController.swift */,
+			);
+			path = Splash;
 			sourceTree = "<group>";
 		};
 		BDE2CF4F26B5B0BD005D2668 /* Class */ = {
@@ -377,6 +391,7 @@
 				BD60679A26B44B04009EBFE2 /* LaunchScreen.storyboard in Resources */,
 				BD60679726B44B04009EBFE2 /* Assets.xcassets in Resources */,
 				BD6067B326B45C83009EBFE2 /* SampleStoryboard.storyboard in Resources */,
+				BD9B810B26C7CE980098CCF7 /* animated-logo.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -448,6 +463,7 @@
 				BDE2CF3B26B5A5CF005D2668 /* CALayer+.swift in Sources */,
 				BDE2CF4E26B5B000005D2668 /* Formatter+.swift in Sources */,
 				BDE2CF4326B5AD74005D2668 /* UIFont+.swift in Sources */,
+				BD9B810926C7CDA80098CCF7 /* SplashViewController.swift in Sources */,
 				BDAF8F7F26B5949800C80F82 /* Design.swift in Sources */,
 				BDE2CF4126B5AD6B005D2668 /* UIColor+.swift in Sources */,
 				BD6067B526B45C92009EBFE2 /* SampleViewController.swift in Sources */,
