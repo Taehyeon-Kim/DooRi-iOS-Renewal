@@ -22,6 +22,7 @@
 		BD6067C926B45EC5009EBFE2 /* FontSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6067C826B45EC5009EBFE2 /* FontSample.swift */; };
 		BD6067CB26B45ECD009EBFE2 /* AnimationSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6067CA26B45ECD009EBFE2 /* AnimationSample.swift */; };
 		BD6067D126B45F34009EBFE2 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6067D026B45F34009EBFE2 /* Constants.swift */; };
+		BD626D4A26C93BAD00B024E9 /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD626D4926C93BAD00B024E9 /* LottieView.swift */; };
 		BD9B810926C7CDA80098CCF7 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9B810826C7CDA80098CCF7 /* SplashViewController.swift */; };
 		BD9B810B26C7CE980098CCF7 /* animated-logo.json in Resources */ = {isa = PBXBuildFile; fileRef = BD9B810A26C7CE980098CCF7 /* animated-logo.json */; };
 		BDAF8F7F26B5949800C80F82 /* Design.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAF8F7E26B5949800C80F82 /* Design.swift */; };
@@ -61,6 +62,7 @@
 		BD6067C826B45EC5009EBFE2 /* FontSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontSample.swift; sourceTree = "<group>"; };
 		BD6067CA26B45ECD009EBFE2 /* AnimationSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationSample.swift; sourceTree = "<group>"; };
 		BD6067D026B45F34009EBFE2 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		BD626D4926C93BAD00B024E9 /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
 		BD9B810826C7CDA80098CCF7 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
 		BD9B810A26C7CE980098CCF7 /* animated-logo.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "animated-logo.json"; sourceTree = "<group>"; };
 		BDAF8F7E26B5949800C80F82 /* Design.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Design.swift; sourceTree = "<group>"; };
@@ -285,6 +287,7 @@
 			isa = PBXGroup;
 			children = (
 				BD6067C426B45EA7009EBFE2 /* ViewSample.swift */,
+				BD626D4826C93B9D00B024E9 /* Common */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -303,6 +306,14 @@
 				BD6067C626B45EAF009EBFE2 /* ViewModelSample.swift */,
 			);
 			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		BD626D4826C93B9D00B024E9 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				BD626D4926C93BAD00B024E9 /* LottieView.swift */,
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 		BD9B810726C7CD990098CCF7 /* Splash */ = {
@@ -444,6 +455,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD626D4A26C93BAD00B024E9 /* LottieView.swift in Sources */,
 				BD6067CB26B45ECD009EBFE2 /* AnimationSample.swift in Sources */,
 				BDE2CF3326B59A6E005D2668 /* APIRouter.swift in Sources */,
 				BD6067D126B45F34009EBFE2 /* Constants.swift in Sources */,
