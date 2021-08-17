@@ -15,7 +15,6 @@ class LottieView: UIView {
     
     override init(frame: CGRect) {
         super.init(frame: frame)
-        animationView.frame = frame
     }
     
     required init?(coder: NSCoder) {
@@ -23,8 +22,8 @@ class LottieView: UIView {
     }
     
     convenience init(named: String, frame: CGRect) {
-        self.init(frame: frame)
-        animationView.frame = self.bounds
+        self.init(frame: .zero)
+        animationView.frame = frame
         animationView.animation = Animation.named(named)
         animationView.contentMode = .scaleAspectFit
         animationView.isHidden = true

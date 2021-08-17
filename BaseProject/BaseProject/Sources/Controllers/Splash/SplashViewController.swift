@@ -13,13 +13,10 @@ import Then
 
 class SplashViewController: BaseViewController {
     // MARK: - Properties
-    lazy var splashLogoImage = AnimationView().then {
-        $0.frame = view.bounds
-        $0.animation = Animation.named("animated-logo")
-        $0.contentMode = .scaleAspectFit
-        $0.stop()
-        $0.isHidden = true
-    }
+    lazy var splashLogoImage = LottieView(
+        named: "animated-logo",
+        frame: CGRect(x: 0, y: 0, width: 99, height: 99)
+    )
     
     lazy var textLogoImageView = UIImageView().then {
         $0.frame = view.bounds
@@ -33,7 +30,7 @@ class SplashViewController: BaseViewController {
         
         setup()
         setupConstraints()
-        startAnimation()
+        splashLogoImage.startAnimation()
     }
     
     // MARK: - Set up
@@ -57,12 +54,5 @@ class SplashViewController: BaseViewController {
             $0.width.equalTo(99)
             $0.height.equalTo(14)
         }
-    }
-    
-    
-    // MARK: - Actions
-    private func startAnimation() {
-        splashLogoImage.isHidden = false
-        splashLogoImage.play()
     }
 }

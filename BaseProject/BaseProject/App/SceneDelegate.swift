@@ -16,10 +16,12 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         guard let windowScene = (scene as? UIWindowScene) else { return }
         window = UIWindow(windowScene: windowScene)
         
+        let splashViewController = SplashViewController()
+        
         let sampleStoryboard = UIStoryboard(name: "SampleStoryboard", bundle: nil)
         guard let sampleScene = sampleStoryboard.instantiateViewController(identifier: "SampleViewController") as? SampleViewController else { return }
         
-        window?.rootViewController = UINavigationController(rootViewController: sampleScene)
+        window?.rootViewController = UINavigationController(rootViewController: splashViewController)
         window?.makeKeyAndVisible()
     }
 }
